@@ -1,2 +1,4 @@
 # Python 3.11+
-pytest
+# Runtime: zero external deps (the spec forbids regex / lex libraries).
+# Dev:
+pytest>=8.0

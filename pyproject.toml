@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lex"
+version = "0.1.0"
+description = "CSC339 Lexical Analyzer (Regex -> NFA -> DFA -> Simulation), built from scratch."
+requires-python = ">=3.11"
+authors = [
+  { name = "Feras" },
+  { name = "Abdulmajeed" },
+  { name = "Abdulaziz" },
+]
+
+[project.scripts]
+lex = "lex.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lex*"]
+exclude = ["tests*", "samples*", "docs*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"
