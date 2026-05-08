@@ -1,7 +1,8 @@
 # Lexical Analyzer
 
 **Course:** CSC339 — Theory of Computation, King Saud University, 1446/47 AH
-**Team:** Feras Madkhali, Abdulmajeed Alwardi, Abdulaziz Alabdullatif
+**Team:**
+Feras Madkhali - 444102819, Abdulmajeed Alwardi, Abdulaziz Alabdullatif
 
 A lexical analyzer built from scratch in Python. No regex library is used —
 the project ingests a list of `(name, regex)` pairs and walks them through
