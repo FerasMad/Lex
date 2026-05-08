@@ -2,7 +2,7 @@
 
 **Course:** CSC339 Theory of Computation — King Saud University, 2026  
 **Team:**
-Feras Madkhali - 444102819, Abdulmajeed Alwardi, Abdulaziz Alabdullatif  
+Feras Madkhali - 444102819, Abdulmajeed Alwardi - 437103958, Abdulaziz Alabdullatif  
 
 This repository contains a Lexical Analyzer implemented entirely from scratch in Python. The program ingests a defined list of token specifications and an input source file, systematically producing a stream of recognized tokens through a rigorous Regular Expression → NFA → DFA → Simulation pipeline.
 
